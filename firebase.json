@@ -1,0 +1,21 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "hosting": {
+    "public": "dist",
+    "site": "firma-rehber",
+    "ignore": [
+      "firebase.json",
+      "**/.firebase/**",
+      "**/*.md",
+      "firestore.rules"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

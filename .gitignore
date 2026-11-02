@@ -1,0 +1,19 @@
+.env
+.env.local
+.env.production
+node_modules/
+.DS_Store
+Thumbs.db
+/dist/
+/dist-ssr/
+*.local
+firebase-debug.log*
+.npmrc
+.firebaserc
+.firebase/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
